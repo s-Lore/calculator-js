@@ -16,8 +16,8 @@
         <input type="text" disabled id="display">
         <div class="box-button">
             <button onclick="clean()">C</button>
-            <button oncli>CE</button>
-            <button onclick="insertToDisplay('×')">×</button>
+            <button onclick="deleteLast()">CE</button>
+            <button onclick="insertToDisplay('*')">×</button>
             <button onclick="insertToDisplay('/')">/</button>
             <button onclick="insertToDisplay('7')">7</button>
             <button onclick="insertToDisplay('8')">8</button>
@@ -32,7 +32,7 @@
             <button onclick="insertToDisplay('3')">3</button>
             <button class="btn-0"onclick="insertToDisplay('0')">0</button>
             <button onclick="insertToDisplay(',')">,</button>
-            <button class="btn-result">=</button>
+            <button class="btn-result" onclick="calculate()">=</button>
         </div>
     </div>
     <script src="script.js"></script>
